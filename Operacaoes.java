@@ -1,6 +1,6 @@
 package Matematica;
 
-public class Operacaoes {
+public class Calculadora {
     
     public double adicao(double num1, double num2) {
         return num1 + num2;
@@ -24,7 +24,7 @@ public class Operacaoes {
     }
 
     public static void main(String[] args) {
-        Operacaoes calculadora = new Operacaoes();
+        Calculadora calculadora = new Calculadora();
 
         double num1 = 5;
         double num2 = 2;
