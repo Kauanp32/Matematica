@@ -15,4 +15,11 @@ public class Divisao implements Operacao {
 		return num1 / num2;
 	}
 
+	public static void main(String[] args) {
+        Divisao divisao = new Divisao();
+        double resultado = divisao.calcular(0, 0);
+        System.out.println("Resultado da Divisão: " + resultado);
+
+   }
+
 }
