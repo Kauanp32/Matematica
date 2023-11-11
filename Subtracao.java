@@ -2,11 +2,12 @@ package Matematica;
 
 import java.util.Scanner;
 
-public class Subtracao implements Operacao {
+public class Subtracao {
+
 	Scanner sc = new Scanner(System.in);
 
-	@Override
-	public double calcular(double num1, double num2) {
+	
+	 public double calcular(double num1, double num2) {
 		
 		System.out.println("Digite o primeiro numero da Subtraçaõ: ");
 		num1 = sc.nextDouble();
